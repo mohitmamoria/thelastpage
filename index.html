@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Last Page</title>
+	<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+		body {
+			padding-top: 20px;
+			background: #336DBB;
+		}
+		p.wrapper {
+			text-align: center;
+		}
+		span#title {
+			font-family: 'Courgette', cursive;
+			font-size: 28px;
+			font-weight: 300;
+			color: #fff;
+		}
+		img#last-page {
+			margin-top: 50px;
+			width: 960px;
+		}
+		.typed-cursor{
+		    opacity: 1;
+		    font-size: 42px;
+		    color: #fff;
+		    -webkit-animation: blink 0.7s infinite;
+		    -moz-animation: blink 0.7s infinite;
+		    animation: blink 0.7s infinite;
+		}
+		@keyframes blink{
+		    0% { opacity:1; }
+		    50% { opacity:0; }
+		    100% { opacity:1; }
+		}
+		@-webkit-keyframes blink{
+		    0% { opacity:1; }
+		    50% { opacity:0; }
+		    100% { opacity:1; }
+		}
+		@-moz-keyframes blink{
+		    0% { opacity:1; }
+		    50% { opacity:0; }
+		    100% { opacity:1; }
+		}
+	</style>
+</head>
+<body>
+
+<p class="wrapper"><span id="title"></span></p>
+<p class="wrapper"><img id="last-page" src="last-page.jpg"></p>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+        $("#title").typed({
+            strings: ["Some stories begin on ^1000<strong>The Last Page</strong>."],
+            contentType: "html",
+            typeSpeed: 100,
+            loop: true
+        });
+    });
+</script>
+</body>
+</html>

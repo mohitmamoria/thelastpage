@@ -1,5 +1,5 @@
 ### The Last Page
 
-Some stories begin from the end.
+Some stories begin on **The Last Page**.
 
 [http://thelastpage.xyz](http://thelastpage.xyz)
